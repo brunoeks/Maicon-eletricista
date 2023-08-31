@@ -1,0 +1,321 @@
+﻿/* CSS Document */
+
+/*Menu*/
+.navegamenu{
+position:relative;
+height:25px;
+padding:0px 0px 10px 0;
+margin:0px 0 0 0;
+overflow:hidden;
+float:right;
+}
+
+.navegamenu li{
+float:left;
+list-style:none;
+}
+
+.navegamenu li.back{
+background:#FF0;
+border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+-o-border-radius: 15px 15px 15px 15px;
+height:25px;
+z-index:8;
+position:absolute;
+}
+
+.navegamenu li a{
+font:150% 'Droid Sans', arial , sans-serif;
+text-decoration:none;
+color:#000;
+outline:none;
+text-align:center;
+letter-spacing:0;
+z-index:10;
+display:block;
+float:left;
+height:30px;
+padding:5px 0px 0 0px;
+position:relative;
+overflow:hidden;
+margin:auto 10px;
+}
+
+.navegamenu li a:hover, navegamenu li a:active, navegamenu li a:visited{
+border:none;
+}
+
+/*Fim Menu*/
+
+
+/*Gerais*/
+html{
+height:100%;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+/*Para uma melhorrenderização dos navegadores no HTML5, utilizar os elementos em bloco */
+article, aside, figure, footer, header, hgroup, nav, section{
+display:block;
+}
+
+body{
+font: normal .85em 'Droid Sans', arial, sans-serif;
+background:#3299CC;
+padding-bottom:40px;
+}
+
+p{
+padding: 0 0 20px 0;
+line-height:1.5em;
+}
+
+img{
+border: 0;
+}
+
+p.frase{
+font: normal 140%  arial;
+margin-left:250px;
+color:#FF0;
+text-align:center;
+}
+
+
+p.conteudo{
+font: normal 190%  arial;
+margin-top:20px;
+color:#FF0;
+text-align:left;
+}
+
+p.conteudo2{
+font: normal 150%  arial;
+margin-top:20px;
+color:#FF0;
+text-align:left;
+}
+
+p.servicos{
+font: normal 150%  arial;
+margin-top:30px;
+color:#FF0;
+text-align:left;
+}
+
+p.contato{
+font: normal 170%  arial;
+color:#FF0;
+margin-top:60px;
+text-align:left;
+}
+
+p.rodapetelefone{
+float:left;
+margin-left:315px;
+margin-top:0px;
+}
+
+h1{
+font:109% sans-serif;
+color:#fff;
+margin-left:100;
+padding: 0 0 5px 0;
+}
+
+a, a:hover{
+outline:none;
+text-decoration:underline;
+color:#000;
+}
+
+a:hover{
+text-decoration:none;
+}
+
+ul{
+margin: 2px 0 22px 17px;
+}
+
+ul li{
+margin: 0 0 0 0;
+padding: 0 0 4px 5px;
+list-style-type:circle;
+}
+
+/*Fim Gerais*/
+
+#geral, header, #logo, nav, #conteudosite, footer{
+margin-left: auto;
+margin-right: auto;
+}
+
+#geral{
+width:950px;
+margin: 20px auto 0 auto;
+}
+
+header{
+width:950px;
+height:105px;
+}
+
+#logo{
+width:220px;
+float:left;
+height:50px;
+background:transparent;
+font-family:Arial, Helvetica, sans-serif;
+padding:20 0 10px 10px;
+}
+
+#logo h1{
+font: normal 400%  Broadway, sans-serif;
+margin-left:0px;
+margin-top:30px;
+color:#000;
+padding:0px;
+}
+
+#logo h1 a {
+text-decoration:none;
+color:#FF0;
+}
+
+nav{
+height:26px;
+width:720px;
+margin: 1px auto 0 auto;
+float:right;
+padding:35px 0 0 0;
+}
+
+#conteudosite{
+width:950px;
+overflow:hidden;
+margin: 50px auto 0 auto;
+padding: 0;
+background:#236B8E;
+border-top:0;
+border-bottom:0;
+}
+
+
+.eletrica{
+float:left;
+margin-left:10px;
+width:180px;
+height:190px;
+}
+
+.nossosprecos{
+float:left;
+margin-left:30px;
+margin-top:100px;
+width:400px;
+height:300px;
+}
+
+#imagens{
+float:right;
+width:450px;
+height:450px;
+padding:50;
+}
+
+.lampada{
+margin-left:80px;
+padding-top:85px;
+}
+
+.home{
+width:450px;
+height:450px;
+}
+
+.construcao{
+width:380px;
+height:380px;
+padding-top:150px;
+}
+
+#conteudoesquerda{
+text-align:justify;
+width:444px;
+padding:0 0 5px 30px;
+margin:0;
+float:left;
+}
+
+#conteudoesquerda ul{
+margin:2px 0 5px 0px;
+}
+
+#conteudoesquerda ul li{
+list-style-type:none;
+background:transparent url(../images/bullet.png) no-repeat left center;
+margin: 0 0 0 0;
+padding: 2px 0 2px 28px;
+line-height:1.5em;
+}
+
+
+
+/*Rodapé */
+footer{
+width:950px;
+font:109% 'Droid Sans', arial, sans-serif;
+height:75px;
+padding:17px 0 5px 0;
+text-align:center;
+background:#FF0;
+}
+
+footer p{
+padding: 0px 0 0 0px;
+font:110% arial;
+}
+
+footer a, footer a:hover{
+color: #000;
+text-decoration:none;
+}
+
+footer a:hover{
+color: #000;
+text-decoration:underline;
+}
+
+/*Rodapé Fim */
+
+/*JQuery Imagens*/
+
+ul.images{
+width:450px;
+height:450px;
+overflow:hidden;
+position:relative;
+margin:0;
+padding:0;
+}
+
+ul.images li{
+position:absolute;
+margin:0;
+padding:0;
+left:0;
+right:0;
+list-style:none;
+}
+
+ul.images li.show{
+z-index:500;
+}
+
+/*Fim Images*/

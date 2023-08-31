@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Maicon Eletricista</title>
+<meta name="description" content="Este site foi desenvolvido em HTML5" />
+<meta name="keywords" content="Projeto Web, HTML5, CSS3, Sites Semântico, SEO" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+<body>
+<img class="eletrica" src="images/eletrica.gif"/>
+<div id="geral">
+<header>
+<div id="logo">
+<h1><a href="index.html">Maicon Eletricista</a></h1>
+</div>
+<nav>
+<p class="frase">"<u><i><b>Com organização e tempo, acha-se o segredo <br>de fazer tudo e bem feito." - Pitágoras</b>
+</i></u></p>
+<ul class="navegamenu" id="ulnavegamenu">
+<li><a href="index.html">Home</a></li>
+<li class="fundomenu"><a href="quem_sou.html">Quem Sou</a></li>
+<li><a href="servicos.html">Serviços</a></li>
+<li><a href="nossos_precos.html">Nossos Preços</a></li>
+<li><a href="contato.html">Contato</a></li>				
+</ul>
+</nav>
+</header>
+<div id="conteudosite">
+<div id="imagens">
+<img src="images/certificado.jpg" />
+</div> 
+<section id="conteudoesquerda">
+<article> 
+<p class="conteudo2">Marcos dos Santos (Maicon), eletricista com mais de 30 anos de experiência, formado pela escola Senai Conde 
+José Vicente de Azevedo localizada na região do Ipiranga, atuou em diversas obras elétricas residenciais, prediais, 
+comerciais e industriais, trabalhou na empresa Lorenzetti durante grande parte de sua vida adquirindo cada vez mais 
+conhecimento manutenção e instalação de produtos elétricos.<br><br>Fundou a sua própria empresa, a “MS Telecom”, voltada a 
+cabeamento elétrico e interfonia, atualmente participou de grandes obras como o Estádio da sede da Copa do Mundo “<u>Arena 
+Corinthians</u>” e supervisionou a obra nos demais Estádios da Copa.<br><br>Apesar de sua ampla experiência e conhecimento na área 
+elétrica. Maicon é uma pessoa totalmente simples e comprometida com o trabalho justo e honesto.</p>
+</article>
+</section>
+</div>
+<footer>
+<p class="rodapetelefone"><b>Maicon Eletricista<br>Telefones: (11) 2946-5697 / (11) 96192-8313</b></p>
+<br><br><br>
+<p><a href="index.html">Home</a> | <a href="quem_sou.html">Quem Sou</a> | <a href="servicos.html">Serviços</a>
+| <a href="nossos_precos.html">Nossos Preços</a> | <a href="contato.html">Contato</a></p>
+</footer>
+</div>
+<!--Aqui vou carregar os meus JavaScript-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="js/image_fade.js"></script>
+<script type="text/javascript">
+
+
+$(function(){
+$("#ulnavegamenu").lavaLamp({
+				
+fx:"backout",
+speed: 700});
+});
+</script>
+<!--Fim dos JavaScript-->
+</body>
+</html>
